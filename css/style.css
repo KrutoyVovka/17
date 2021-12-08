@@ -159,6 +159,12 @@ COLORS_1 {
 	border-radius: 8px;
 	text-align: center;
 	align-self: center;
+	transition: all 0.15s ease-in-out;
+}
+.btn:hover {
+	color: #F2726F;
+	background-color: #fff;
+
 }
 @media (max-width:425px){
 	.btn {
@@ -352,6 +358,9 @@ COLORS_1 {
 	letter-spacing: 0.15px;
 	display: flex;
 	justify-content:center;align-items: center;
+}
+.menu-header__link:hover {
+	text-shadow: 0px 1px 5px rgba(155, 155, 155, 0.5);
 }
 .menu-header__link_s::after {
 	content: "";
